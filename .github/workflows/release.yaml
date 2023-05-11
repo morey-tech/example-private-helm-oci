@@ -7,7 +7,6 @@ on:
 
 jobs:
   publish-charts:
-    needs: push
     runs-on: ubuntu-latest
     steps:
     - name: Set up Helm
