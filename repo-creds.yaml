@@ -6,8 +6,8 @@ metadata:
   name: example-private-helm-oci
   namespace: argocd
 stringData:
-  name: my-oci-charts
   url: ghcr.io/morey-tech/example-private-helm-oci
+  name: private-helm-oci
   type: helm
   enableOCI: "true"
   username: token-name
