@@ -5,15 +5,12 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: ''
     namespace: guestbook
     server: 'https://kubernetes.default.svc'
   source:
-    path: ''
     repoURL: ghcr.io/morey-tech/example-private-helm-oci
     targetRevision: 0.1.0
     chart: guestbook
-  sources: []
   project: default
   syncPolicy:
     syncOptions:
